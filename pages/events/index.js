@@ -1,15 +1,15 @@
 import React from 'react';
 import EventList from '@/components/events/EventList';
 import { getFeaturedEvents } from '@/dummy-data';
+import { getAllEvents } from '@/dummy-data';
+import classes from './index.module.css';
 const MainEventsPage = () => {
   const featuredEvents = getFeaturedEvents();
-
+  const allEvents = getAllEvents();
   return (
-    <div>
-      <h1>MainEvents page</h1>
-      <h2>Show all events</h2>
+    <div className={classes.container}>
       <div>
-        <EventList items={featuredEvents} />
+        <EventList items={allEvents} />
       </div>
     </div>
   );
