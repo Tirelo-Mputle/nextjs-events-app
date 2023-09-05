@@ -1,0 +1,56 @@
+.eventContainer {
+  max-width: 25rem;
+  width: 80%;
+  margin: 0 auto;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  display: flex;
+  max-height: 13rem;
+  border-radius: 0.5rem;
+  margin-bottom: 2rem;
+  background-color: #fff;
+}
+.imageContainer {
+  width: 40%;
+}
+
+.detailsContainer {
+  width: 60%;
+  height: 100%;
+  background-color: #fff;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  border-top-right-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+  gap: 1rem;
+}
+
+.title {
+  margin-bottom: 1rem;
+}
+
+.dataContainer {
+  display: flex;
+  align-items: center;
+  gap: 01rem;
+  margin-bottom: 0rem;
+  color: gray;
+}
+
+.month {
+  font-weight: 600;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-top-left-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+}
+
+.buttonToRight {
+  margin-top: 1rem;
+  align-self: flex-end;
+}
