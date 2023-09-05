@@ -13,8 +13,13 @@ const EventDetailsPage = () => {
   }
   return (
     <>
-      <EventSummary />
-      <EventLogistics />
+      <EventSummary title={event.title} />
+      <EventLogistics
+        date={event.date}
+        address={event.image}
+        image={event.image}
+        imageAlt={event.title}
+      />
       <EventContent>{event.description}</EventContent>
     </>
   );
